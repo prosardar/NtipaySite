@@ -1,0 +1,46 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="~/Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <link href="~/Content/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/Style.css" rel="stylesheet" type="text/css" />
+    <link href="~/icon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.8.24.js"></script>
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <meta name="viewport" content="width=device-width" />
+    <title>Скоро в Уфе оплата по отпечаткам пальцев</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div id="logo">
+            <img src="~/Images/logo.png" alt="logo" />
+        </div>
+
+        <div class="for-form">
+            <form name="test" method="post" action="#" class="req-form">
+                <input type="text" placeholder="Ваш email" size="37" class="emailTextBox" />
+                <input type="image" src="~/Images/arrow.png" class="applyEmail" />
+
+                <p class="p-mail">Оставьте свой e-mail,<br />
+                    чтобы быть в курсе наших новостей</p>
+                <p class="for-button-main">
+                    <a href="@Url.Action("Description", "Home")">
+                        <img src="~/Images/button-main.png" alt="next" class="button-main" />
+                    </a>
+                </p>
+            </form>
+
+        </div>
+
+        <!--  <div class="rightPic">      
+                                                                                                                            <img src="Images/bigFingerPrint.png" alt="fingerPrint" />       </div>                -->
+    </div>
+</body>
+</html>

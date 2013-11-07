@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ntipay", "ntipay\ntipay.csproj", "{584D31E0-1D56-49ED-A63E-EAEEDEFD443C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ntipay.Tests", "ntipay.Tests\ntipay.Tests.csproj", "{08B62444-A3C8-4EE1-8B69-9A3E07EA0B5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{584D31E0-1D56-49ED-A63E-EAEEDEFD443C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584D31E0-1D56-49ED-A63E-EAEEDEFD443C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584D31E0-1D56-49ED-A63E-EAEEDEFD443C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584D31E0-1D56-49ED-A63E-EAEEDEFD443C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B62444-A3C8-4EE1-8B69-9A3E07EA0B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B62444-A3C8-4EE1-8B69-9A3E07EA0B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B62444-A3C8-4EE1-8B69-9A3E07EA0B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B62444-A3C8-4EE1-8B69-9A3E07EA0B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

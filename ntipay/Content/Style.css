@@ -1,0 +1,316 @@
+﻿@import "reset.css";
+
+html {
+}
+
+body {
+    background: #4A4A4A;
+    /*background-image: url("../Images/bg.png");    
+    background-repeat: no-repeat;*/
+    background-size: 100%;
+    /*background: -moz-linear-gradient(top, #A5A5A5, #595959);     
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A5A5A5), color-stop(100%,#595959)); 
+    background: -webkit-linear-gradient(top, #A5A5A5, #595959);
+    background: -o-linear-gradient(top, #A5A5A5, #595959); 
+    background: -ms-linear-gradient(top, #A5A5A5, #595959); 
+    background: linear-gradient(top, #A5A5A5, #595959); */
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#logo {
+    background: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.menuBlock {
+    background: #595959;
+    position: relative;
+    height: 62px;
+}
+
+.menuBlock DIV {
+    position: absolute;
+}
+
+.leftMenuBlock {
+    background: #C7E3E4;
+    width: 1px;
+}
+
+.centerMenuBlock {    
+    left: 1px;
+    right: 2px;
+    text-align: center;     
+}
+.menuUl {
+    text-align: center;
+    width: 856px;
+    display: block;
+    margin: 0 auto;
+}
+.menuUl li {
+    float: left;
+    font: 30px/50px 'Trebuchet MS';
+}
+
+.menuUl a {
+    background: url("../Images/button.png") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    height: 62px;
+    margin: 0px 10px;
+    text-decoration: none;
+    width: 194px;
+    text-align: center;
+}
+
+.menuUl a:hover {
+    background: url("../Images/hover.png") repeat scroll 0 0 transparent;
+    color: #626262;
+}
+
+.rightMenuBlock {
+    background: #ECD5DE;
+    width: 1px;
+    right: 0;
+}
+
+
+.c-header {
+    color: #FFFFFF;
+    font: 24.11px 'Trebuchet MS';
+    padding-left: 30px;
+    background: #595959;
+}
+
+.content {
+    color: #FFFFFF;
+    font: 14px 'Trebuchet MS';
+}
+
+.content-p {
+    text-align: justify;
+    padding: 10px 50px 15px 50px;
+    background: #595959;
+}
+
+.for-form {
+    color: #FFFFFF;
+    font: 14px 'Trebuchet MS';
+    margin-top: 3%;
+}
+
+.req-form {
+    width: 655px;
+    margin: 0 auto;
+}
+
+.emailTextBox {
+    background: url("../Images/bg-emailTextBox.png") no-repeat scroll 0 0 transparent;
+    font: 37.13px 'Trebuchet MS';
+    border: 0px;
+    height: 81px;
+    left: 91px;
+    margin: 0px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    width: 386px;
+}
+
+.applyEmail {
+    background: url("../Images/arrow.png") repeat scroll 0 0 transparent;
+    left: 115px;
+    position: relative;
+    top: 30px;
+}
+
+.p-mail {
+    color: #FFFFFF;
+    font: bold 37px 'Trebuchet MS';
+    position: relative;
+    text-align: center;
+    margin: 40px 0;
+    height: 95px;
+}
+
+.for-button-main {
+    text-align: center;
+}
+
+.button-main {
+    background: url("../Images/button-main.png") repeat scroll 0 0 transparent;
+}
+
+.fingerPrint {
+    background: url("../Images/bigFingerPrint.png") no-repeat scroll 0 0 transparent;
+    height: 652px;
+    left: 1385px;
+    position: absolute;
+    top: 64px;
+    width: 523px;
+}
+
+.rightPic {
+    float: right;
+    z-index: 1;
+}
+
+.footer {
+    background: none repeat scroll 0 0 #4A4A4A;
+    height: 80px;
+    position: relative;
+}
+
+.footer DIV {
+    position: absolute;
+}
+
+.email {
+    background: url("../Images/email.png") repeat scroll 0 0 transparent;
+    height: 45px;
+    width: 60px;
+    left: 25px;
+    top: 16px;
+}
+
+.t-email {
+    color: #FFFFFF;
+    font: 24px 'Trebuchet MS';
+    left: 68px;
+    position: inherit;
+    top: 10px;
+}
+
+.t-email a {
+    color: #FFFFFF;
+    font: 24px 'Trebuchet MS';
+    text-decoration: none;
+}
+
+.footer-center {
+    left: 260px;
+    right: 360px;
+    top: 26px;
+}
+
+.social {
+    right: 170px;
+    top: 26px;
+}
+
+.social-wrapper {
+    right: 20px;
+    width: 160px;
+}
+
+.social-text {
+    color: #FFFFFF;
+    font: 24px 'Trebuchet MS';
+}
+
+.icons {
+    width: 140px;
+}
+
+.social-icon {
+    border: none;
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+
+@media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+    .menu {
+        margin: 0 auto;
+        list-style: none;
+        width: 816px;
+    }
+
+    .menu li {
+        float: left;
+        font: 30px/40px 'Trebuchet MS';
+    }
+
+    .menu a {
+        background: url("../Images/button-Mobile.png") repeat scroll 0 0 transparent;
+        color: #FFFFFF;
+        display: block;
+        height: 62px;
+        text-decoration: none;
+        width: 143px;
+        margin-right: 5px;
+    }
+
+    .menu a:hover {
+        background: url("../Images/hover-button-Mobile.png") repeat scroll 0 0 transparent;
+        color: #626262;
+    }
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+}
