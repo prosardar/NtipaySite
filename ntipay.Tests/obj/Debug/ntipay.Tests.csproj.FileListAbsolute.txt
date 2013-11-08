@@ -29,3 +29,8 @@ E:\Projects\VStudio\ntipay\ntipay.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 E:\Projects\VStudio\ntipay\ntipay.Tests\obj\Debug\ntipay.Tests.csprojResolveAssemblyReference.cache
 E:\Projects\VStudio\ntipay\ntipay.Tests\obj\Debug\ntipay.Tests.dll
 E:\Projects\VStudio\ntipay\ntipay.Tests\obj\Debug\ntipay.Tests.pdb
+E:\Projects\VStudio\ntipay\ntipay.Tests\bin\Debug\NLog.config
+E:\Projects\VStudio\ntipay\ntipay.Tests\bin\Debug\NLog.dll
+E:\Projects\VStudio\ntipay\ntipay.Tests\bin\Debug\NLog.xml
+E:\Projects\VStudio\ntipay\ntipay.Tests\bin\Debug\EntityFramework.dll
+E:\Projects\VStudio\ntipay\ntipay.Tests\bin\Debug\EntityFramework.xml

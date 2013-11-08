@@ -1,3 +1,4 @@
+E:\Projects\VStudio\ntipay\ntipay\bin\NLog.config
 E:\Projects\VStudio\ntipay\ntipay\bin\ntipay.dll
 E:\Projects\VStudio\ntipay\ntipay\bin\ntipay.pdb
 E:\Projects\VStudio\ntipay\ntipay\bin\Antlr3.Runtime.dll
@@ -5,6 +6,7 @@ E:\Projects\VStudio\ntipay\ntipay\bin\EntityFramework.dll
 E:\Projects\VStudio\ntipay\ntipay\bin\Microsoft.Web.Infrastructure.dll
 E:\Projects\VStudio\ntipay\ntipay\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
 E:\Projects\VStudio\ntipay\ntipay\bin\Newtonsoft.Json.dll
+E:\Projects\VStudio\ntipay\ntipay\bin\NLog.dll
 E:\Projects\VStudio\ntipay\ntipay\bin\System.Net.Http.Formatting.dll
 E:\Projects\VStudio\ntipay\ntipay\bin\System.Web.Http.dll
 E:\Projects\VStudio\ntipay\ntipay\bin\System.Web.Http.WebHost.dll
@@ -16,6 +18,7 @@ E:\Projects\VStudio\ntipay\ntipay\bin\System.Web.WebPages.Deployment.dll
 E:\Projects\VStudio\ntipay\ntipay\bin\System.Web.WebPages.dll
 E:\Projects\VStudio\ntipay\ntipay\bin\System.Web.WebPages.Razor.dll
 E:\Projects\VStudio\ntipay\ntipay\bin\WebGrease.dll
+E:\Projects\VStudio\ntipay\ntipay\bin\NLog.xml
 E:\Projects\VStudio\ntipay\ntipay\bin\EntityFramework.xml
 E:\Projects\VStudio\ntipay\ntipay\bin\Newtonsoft.Json.xml
 E:\Projects\VStudio\ntipay\ntipay\bin\System.Net.Http.Formatting.xml
@@ -26,9 +29,6 @@ E:\Projects\VStudio\ntipay\ntipay\bin\System.Web.Razor.xml
 E:\Projects\VStudio\ntipay\ntipay\bin\System.Web.WebPages.xml
 E:\Projects\VStudio\ntipay\ntipay\bin\System.Web.WebPages.Deployment.xml
 E:\Projects\VStudio\ntipay\ntipay\bin\System.Web.WebPages.Razor.xml
-E:\Projects\VStudio\ntipay\ntipay\obj\Debug\ntipay.csprojResolveAssemblyReference.cache
 E:\Projects\VStudio\ntipay\ntipay\obj\Debug\ntipay.dll
 E:\Projects\VStudio\ntipay\ntipay\obj\Debug\ntipay.pdb
-E:\Projects\VStudio\ntipay\ntipay\bin\NLog.config
-E:\Projects\VStudio\ntipay\ntipay\bin\NLog.dll
-E:\Projects\VStudio\ntipay\ntipay\bin\NLog.xml
+E:\Projects\VStudio\ntipay\ntipay\obj\Debug\ntipay.csprojResolveAssemblyReference.cache

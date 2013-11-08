@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+    <head>
+       <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta http-equiv="~/Content-Type" content="text/html; charset=utf-8" />
+        <link href="~/Content/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />
+        <link href="~/Content/Style.css" rel="stylesheet" type="text/css" />
+        <link href="~/icon.ico" rel="shortcut icon" type="image/x-icon" />
+        <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+        <script src="~/Scripts/jquery-ui-1.8.24.js"></script>
+        <script src="~/Scripts/modernizr-2.6.2.js"></script>
+        <title>@ViewBag.Title</title>
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div id="logo">
+                <a href="@Url.Action("Main", "Home")">
+                    <img src="~/Images/logo.png" alt="logo" />
+                </a>
+            </div>
+            <div class="menuBlock">
+                <div class="leftMenuBlock"></div>
+                <div class="centerMenuBlock">
+                    <ul class="menuUl">
+                        <li><a href="@Url.Action("Technology", "Information")">Технология</a></li>
+                        <li><a href="#">Сервис</a></li>
+                        <li><a href="#">Сервис</a></li>
+                        <li><a href="@Url.Action("About", "Information")">О нас</a></li>
+                    </ul>
+                </div>
+                <div class="rightMenuBlock"></div>
+            </div>
+        </div>
+    </header>
+
+    <div id="body">
+        @RenderSection("featured", required: false)
+        <section class="content">
+            @RenderBody()
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="email">
+                <p class="t-email">
+                    <a href="mailto:info@ntipay.ru">info@ntipay.ru</a>
+                </p>
+            </div>
+            <div class="footer-center">
+                <p></p>
+            </div>
+            <div class="social">
+                <div class="social-wrapper">
+                    <p class="social-text">Мы в соцсетях</p>
+                </div>
+                <div class="icons">
+                    <a href="http://vk.com/ntipay">
+                        <img src="~/Images/vk.png" alt="vk" class="social-icon"></a>
+                    <a href="#">
+                        <img src="~/Images/twitter.png" alt="twitter" class="social-icon"></a>
+                    <a href="#">
+                        <img src="~/Images/fb.png" alt="facebook" class="social-icon"></a>
+                    <a href="#">
+                        <img src="~/Images/google.png" alt="google" class="social-icon"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

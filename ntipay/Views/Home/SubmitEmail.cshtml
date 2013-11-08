@@ -1,0 +1,24 @@
+﻿@using ntipay.Models
+@model IEnumerable<User>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h2>Users</h2>
+<tr>
+@foreach (User item in Model) {
+    
+        <td>
+            @Html.DisplayFor(modelItem => item.UserId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+    
+}
+    </tr> 
