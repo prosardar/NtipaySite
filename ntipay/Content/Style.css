@@ -16,7 +16,6 @@ body {
     background: linear-gradient(top, #A5A5A5, #595959); */
 }
 
-
 .wrapper {
     margin: 0 auto;
     width: 100%;
@@ -28,53 +27,54 @@ body {
     text-align: center;
 }
 
-
 .menuBlock {
     background: #595959;
     position: relative;
     height: 62px;
 }
 
-.menuBlock DIV {
-    position: absolute;
-}
+    .menuBlock DIV {
+        position: absolute;
+    }
 
 .leftMenuBlock {
     background: #C7E3E4;
     width: 1px;
 }
 
-.centerMenuBlock {    
+.centerMenuBlock {
     left: 1px;
     right: 2px;
-    text-align: center;     
+    text-align: center;
 }
+
 .menuUl {
     text-align: center;
     width: 856px;
     display: block;
     margin: 0 auto;
 }
-.menuUl li {
-    float: left;
-    font: 30px/50px 'Trebuchet MS';
-}
 
-.menuUl a {
-    background: url("../Images/button.png") repeat scroll 0 0 transparent;
-    color: #FFFFFF;
-    display: block;
-    height: 62px;
-    margin: 0px 10px;
-    text-decoration: none;
-    width: 194px;
-    text-align: center;
-}
+    .menuUl li {
+        float: left;
+        font: 30px/50px 'Trebuchet MS';
+    }
 
-.menuUl a:hover {
-    background: url("../Images/hover.png") repeat scroll 0 0 transparent;
-    color: #626262;
-}
+    .menuUl a {
+        background: url("../Images/button.png") repeat scroll 0 0 transparent;
+        color: #FFFFFF;
+        display: block;
+        height: 62px;
+        margin: 0px 10px;
+        text-decoration: none;
+        width: 194px;
+        text-align: center;
+    }
+
+        .menuUl a:hover {
+            background: url("../Images/hover.png") repeat scroll 0 0 transparent;
+            color: #626262;
+        }
 
 .rightMenuBlock {
     background: #ECD5DE;
@@ -108,26 +108,25 @@ body {
 }
 
 .req-form {
-    width: 655px;
+    width: 770px;
     margin: 0 auto;
 }
 
 .emailTextBox {
     background: url("../Images/bg-emailTextBox.png") no-repeat scroll 0 0 transparent;
     font: 37.13px 'Trebuchet MS';
-    border: 0px;
+    border: 0;
     height: 81px;
-    left: 91px;
-    margin: 0px auto;
+    left: 150px;
+    margin: 0 auto;
     padding-left: 15px;
-    padding-right: 15px;
     position: relative;
-    width: 416px;
+    width: 401px;
 }
 
 .applyEmail {
     background: url("../Images/arrow.png") repeat scroll 0 0 transparent;
-    left: 115px;
+    left: 160px;
     position: relative;
     top: 30px;
 }
@@ -169,9 +168,9 @@ body {
     position: relative;
 }
 
-.footer DIV {
-    position: absolute;
-}
+    .footer DIV {
+        position: absolute;
+    }
 
 .email {
     background: url("../Images/email.png") repeat scroll 0 0 transparent;
@@ -189,11 +188,11 @@ body {
     top: 10px;
 }
 
-.t-email a {
-    color: #FFFFFF;
-    font: 24px 'Trebuchet MS';
-    text-decoration: none;
-}
+    .t-email a {
+        color: #FFFFFF;
+        font: 24px 'Trebuchet MS';
+        text-decoration: none;
+    }
 
 .footer-center {
     left: 260px;
@@ -235,25 +234,25 @@ body {
         width: 816px;
     }
 
-    .menu li {
-        float: left;
-        font: 30px/40px 'Trebuchet MS';
-    }
+        .menu li {
+            float: left;
+            font: 30px/40px 'Trebuchet MS';
+        }
 
-    .menu a {
-        background: url("../Images/button-Mobile.png") repeat scroll 0 0 transparent;
-        color: #FFFFFF;
-        display: block;
-        height: 62px;
-        text-decoration: none;
-        width: 143px;
-        margin-right: 5px;
-    }
+        .menu a {
+            background: url("../Images/button-Mobile.png") repeat scroll 0 0 transparent;
+            color: #FFFFFF;
+            display: block;
+            height: 62px;
+            text-decoration: none;
+            width: 143px;
+            margin-right: 5px;
+        }
 
-    .menu a:hover {
-        background: url("../Images/hover-button-Mobile.png") repeat scroll 0 0 transparent;
-        color: #626262;
-    }
+            .menu a:hover {
+                background: url("../Images/hover-button-Mobile.png") repeat scroll 0 0 transparent;
+                color: #626262;
+            }
 }
 
 /* Styles for basic forms
@@ -285,7 +284,10 @@ textarea {
 /* Styles for validation helpers
 -----------------------------------------------------------*/
 .field-validation-error {
-    color: #f00;
+    font-size: 20px;
+    color: #fac1c1;
+    text-align: center;
+    display: block;
 }
 
 .field-validation-valid {
@@ -293,8 +295,7 @@ textarea {
 }
 
 .input-validation-error {
-    border: 1px solid #f00;
-    background-color: #fee;
+    background: url("../Images/bg-emailTextBoxError.png") no-repeat scroll 0 0 transparent;
 }
 
 .validation-summary-errors {

@@ -1,0 +1,5 @@
+2013-11-11 09:51:07.9901|INFO|ntipay.MvcApplication|Application Start
+2013-11-11 10:03:25.0324|INFO|ntipay.MvcApplication|Application Start
+2013-11-11 10:03:52.2072|INFO|ntipay.MvcApplication|Application Start
+2013-11-11 10:09:30.3207|INFO|ntipay.MvcApplication|Application Start
+2013-11-11 10:16:14.6741|INFO|ntipay.MvcApplication|Application Start
