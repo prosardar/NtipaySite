@@ -144,6 +144,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\reset.css" />
+    <Content Include="Content\TextStyle.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -200,6 +201,8 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Style.css" />
+    <Content Include="Images\Applied\1.png" />
+    <Content Include="Images\Applied\cards.png" />
     <Content Include="Images\bg-emailTextBoxError.png" />
     <Content Include="NLog.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -256,6 +259,8 @@
     <Content Include="Views\Information\About.cshtml" />
     <Content Include="Views\Home\SubmitEmail.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Information\Security.cshtml" />
+    <Content Include="Views\Information\Service.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

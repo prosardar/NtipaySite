@@ -13,6 +13,14 @@ namespace ntipay.Controllers {
             return View();
         }
 
+        public ActionResult Service() {
+            return View();
+        }
+
+        public ActionResult Security() {
+            return View();
+        }
+
         public ActionResult About() {
             return View();
         }
