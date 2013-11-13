@@ -31,4 +31,3 @@ E:\Projects\VStudio\ntipay\ntipay\bin\System.Web.WebPages.Deployment.xml
 E:\Projects\VStudio\ntipay\ntipay\bin\System.Web.WebPages.Razor.xml
 E:\Projects\VStudio\ntipay\ntipay\obj\Debug\ntipay.dll
 E:\Projects\VStudio\ntipay\ntipay\obj\Debug\ntipay.pdb
-E:\Projects\VStudio\ntipay\ntipay\obj\Debug\ntipay.csprojResolveAssemblyReference.cache
